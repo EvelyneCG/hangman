@@ -1,0 +1,61 @@
+body {
+background-size: cover;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#choices li, #answer li {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    
+}
+
+.disabled {
+    opacity: 0.3;
+}
+
+#choices li {
+    background-color: rosybrown;
+    border-style: outset;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 100px;
+}
+
+#score {
+    text-align: left;
+    color: black;
+    background-color: darkred;
+    margin-right: 1470px;
+    padding-left: 5px;
+}
+
+div {
+    text-align: center;
+    font-size: large;
+
+}
+
+#letterschoice {
+    text-align: justify;
+    
+}
+
+#answer {
+   background-color: linen; 
+   margin-right: 400px;
+   margin-left: 400px;
+   margin-top: 150px;
+   opacity: 0.7;
+   }
+
+h1 {
+    text-align: center;
+    color: red;
+}
+
+
+
+
