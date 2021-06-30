@@ -26,7 +26,7 @@ const words = [
     'REFLEXION',
     'LOGIQUE',
     'PRATIQUE',
-    'CAFEINE',
+    'BESOIN DE CAFEINE',
     'TRAVAIL',
     'DEVELOPPEUR',
     'APPRENTISSAGE'
@@ -168,11 +168,11 @@ const displayWord = (wordMapping) => {
 
 const endGame = () => {
     document.querySelector('body').style.backgroundImage = "url(https://images.alphacoders.com/813/thumb-1920-81391.jpg)";
-    els.choices.innerHTML = `<h1 style= color:red;>You died... I'm coming for you...</h1>`;
+    els.choices.innerHTML = `<h3 style= color:red;>You died... I'm coming for you...</h3>`;
 };
 const winGame = () => {
     document.querySelector('body').style.backgroundImage = "url(https://static.straitstimes.com.sg/s3fs-public/styles/article_pictrure_780x520_/public/articles/2020/12/17/nz_sweethome_171283.jpg?itok=Q-uqZsd2&timestamp=1608176714)";
-    els.choices.innerHTML = `<h1 style= color:white;>You still alive... for now...</h1>`;
+    els.choices.innerHTML = `<h3 style= color:white;>You still alive... for now...</h3>`;
 }
 
 const generateChoices = () => {
@@ -199,7 +199,7 @@ const getWordMapping = () => {
 //    console.log('wordArr', wordArr);
     const wordMapping = wordArr.map((letter, index) =>{
         let isVisible = false;
-        if (index === 0 || index == wordArr.length -1) {
+        if (index === 0 || index == wordArr.length -1 || letter ==" ") {
             isVisible = true;
         }
         return {

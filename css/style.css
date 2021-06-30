@@ -1,5 +1,6 @@
 body {
 background-size: cover;
+background-repeat: no-repeat;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -21,40 +22,32 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-right: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
-    margin-top: 100px;
-}
+   }
 
-#score {
-    text-align: left;
-    color: black;
+#score, #sCore {
     background-color: darkred;
-    margin-right: 1470px;
-    padding-left: 5px;
-}
+    }
 
 div {
     text-align: center;
     font-size: large;
-
 }
 
 #letterschoice {
-    text-align: justify;
-    
+    text-align: justify;    
 }
 
-#answer {
+#answer, h1 {
    background-color: linen; 
-   margin-right: 400px;
-   margin-left: 400px;
-   margin-top: 150px;
    opacity: 0.7;
+   border-radius: 5px;
    }
 
 h1 {
     text-align: center;
     color: red;
 }
+
 
 
 
