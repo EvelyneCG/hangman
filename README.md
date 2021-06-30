@@ -6,7 +6,7 @@ Réalisation du projet du pendu en 3 jours.
 
 ## Lien vers le projet
 
-
+https://evelynecg.github.io/hangman/
 
 ### Fonctionnement du projet
 
@@ -17,4 +17,6 @@ Pour ce faire vous avez droit à 8 erreurs.
 
 Evelyne Colaço Garcia https://github.com/EvelyneCG
 
+<hr>
 
+https://media.giphy.com/media/ybQIv0CsYm1XY9A8Dm/giphy.gif
