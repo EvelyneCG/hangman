@@ -19,5 +19,5 @@ Evelyne Colaço Garcia https://github.com/EvelyneCG
 
 <hr>
 
-![boostrap meme](https://media.giphy.com/media/ybQIv0CsYm1XY9A8Dm/giphy.gif)
+![hangin man](https://media.giphy.com/media/ybQIv0CsYm1XY9A8Dm/giphy.gif)
 
